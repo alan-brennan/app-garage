@@ -1,0 +1,18 @@
+current directory: /Users/alanbrennan/Documents/React/app-garage/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.3/ext/mini_racer_extension
+/usr/local/opt/ruby/bin/ruby -r ./siteconf20181010-54080-130w1j3.rb extconf.rb
+checking for -lpthread... yes
+checking for -lobjc... yes
+creating Makefile
+
+current directory: /Users/alanbrennan/Documents/React/app-garage/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.3/ext/mini_racer_extension
+make "DESTDIR=" clean
+
+current directory: /Users/alanbrennan/Documents/React/app-garage/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.3/ext/mini_racer_extension
+make "DESTDIR="
+compiling mini_racer_extension.cc
+clang: warning: argument unused during compilation: '-rdynamic' [-Wunused-command-line-argument]
+linking shared-object mini_racer_extension.bundle
+
+current directory: /Users/alanbrennan/Documents/React/app-garage/vendor/bundle/ruby/2.4.0/gems/mini_racer-0.2.3/ext/mini_racer_extension
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 mini_racer_extension.bundle ./.gem.20181010-54080-2tjkb8
