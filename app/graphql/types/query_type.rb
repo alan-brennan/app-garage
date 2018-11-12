@@ -9,5 +9,15 @@ module Types
     def test_field
       "Hello World!"
     end
+
+    field :app, Types::AppType, null: true, description: "App details" do
+      argument :id, ID, required: true
+    end
+
+    def app(id:)
+      App.where(id: id).first
+    end
+
+
   end
 end
