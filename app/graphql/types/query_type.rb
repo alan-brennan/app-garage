@@ -18,6 +18,12 @@ module Types
       App.where(id: id).first
     end
 
+    field :apps, [Types::AppType], null: true, description: "Full App list"
+
+    def apps
+      App.all
+    end
+
 
   end
 end
