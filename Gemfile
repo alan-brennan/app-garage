@@ -71,3 +71,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "react_on_rails", "11.0.0"
 gem "webpacker", "~> 3"
 gem 'mini_racer', platforms: :ruby
+
+gem 'graphql'
