@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+test App store with react Components. Original code came from https://github.com/danielrudn/app-garage. React components added by me.
 
 Things you may want to cover:
 
