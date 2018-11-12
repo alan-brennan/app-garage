@@ -11,7 +11,8 @@
 
 import ReactOnRails from 'react-on-rails';
 import Search from '../components/Search';
+import RatedApps from '../components/RatedApps';
 
 ReactOnRails.register({
-  Search
+  Search, RatedApps
 });
