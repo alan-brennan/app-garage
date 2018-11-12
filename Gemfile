@@ -73,3 +73,5 @@ gem "webpacker", "~> 3"
 gem 'mini_racer', platforms: :ruby
 
 gem 'graphql'
+
+gem 'graphiql-rails', group: :development
