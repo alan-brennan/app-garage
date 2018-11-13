@@ -1,0 +1,17 @@
+<div class="ui raised segment search-container">
+  <img class="ui centered medium image" src="/logo-text.png" >
+</div>
+
+<!-- <%= react_component("Search") %> -->
+<!-- <%= react_component("RatedApps", props: {app_list: @highest_rated, header: "Highest Rated"}) %>
+<%= react_component("RatedApps", props: {app_list: @lowest_rated, header: "Lowest Rated"}) %> -->
+<%= react_component("AllApps", props: {app_list: @lowest_rated, header: "Lowest Rated"}) %>
+
+
+<!-- <%= render partial: "apps/app_cards", locals: { name: "Most Downloaded", app_list: @most_downloaded } %>
+<!-- <%= render partial: "apps/app_cards", locals: { name: "Highest Rated", app_list: @highest_rated } %> -->
+<!--hardcoded example of a graphql endpoint being hit
+display all the apps in json-->
+<div><form action="/graphql?query={apps {id name rating}}" method="post">
+  <button type="submit">All Apps</button>
+</form></div>

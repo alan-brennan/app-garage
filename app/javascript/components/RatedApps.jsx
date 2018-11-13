@@ -27,3 +27,7 @@ export default class RatedApps extends React.Component {
      )
     }
   }
+  // var app_list = this.props.app_list.map((app) => {
+  //   return(
+  //       <OneAppDetails app={app}/>
+  //   )
