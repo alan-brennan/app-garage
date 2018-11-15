@@ -3,8 +3,6 @@ import ApolloClient from 'apollo-client';
 import  { ApolloProvider } from 'react-apollo';
 import { createHttpLink } from 'apollo-link-http';
 import { InMemoryCache } from 'apollo-cache-inmemory';
-import gql from 'graphql-tag';
-import { graphql } from 'react-apollo';
 import AppsList from './AppsList';
 
 
@@ -22,7 +20,7 @@ class RootComponent extends React.Component {
        <ApolloProvider client={client}>
        <div> <AppsList/> </div>
        </ApolloProvider>
-     ) // end return 
+     ) // end return
    } // end render
   } // end class
 
