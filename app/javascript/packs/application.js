@@ -12,7 +12,9 @@
 import ReactOnRails from 'react-on-rails';
 import Search from '../components/Search';
 import RatedApps from '../components/RatedApps';
+import AppsList from '../components/AppsList';
+import RootComponent from '../components/RootComponent'
 
 ReactOnRails.register({
-  Search, RatedApps
+  Search, RatedApps, AppsList, RootComponent
 });
