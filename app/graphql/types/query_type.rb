@@ -21,7 +21,7 @@ module Types
     field :apps, [Types::AppType], null: true, description: "Full App list"
 
     def apps
-      App.first(5)
+      App.last(5)
     end
 
 

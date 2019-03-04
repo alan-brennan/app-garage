@@ -19,7 +19,7 @@ class AppsList extends React.Component {
   renderApps() {
     return this.props.data.apps.map( app => {
       return(
-              <OneAppDetails app={app} />
+              <OneAppDetails app={app} key={app.id}/>
 
               );
     });
@@ -28,7 +28,7 @@ class AppsList extends React.Component {
   render(){
 
     if(this.props.data.loading) {return <div> Loading.... </div>; }
-    console.log(this.props);
+      //console.log(this.props);
 
      return(
        <div>
@@ -46,10 +46,11 @@ class AppsList extends React.Component {
 const ALL_APPS_QUERY = gql`
   {
    apps {
+     id
      name
      author
      description
-     rating 
+     rating
     }
   }
  `;

@@ -10,5 +10,7 @@ Rails.application.routes.draw do
 
   get '/index2', to: 'index2#show'
 
+  get 'app/new', to: 'index2#new'
+
   resources :apps, only: :show
 end
